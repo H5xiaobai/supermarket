@@ -1,0 +1,41 @@
+day01需求:
+    1. 搭建项目目录
+        // 方式一
+        a. 创建目录
+            vue create 项目名
+
+        b. 启动项目
+            npm run serve 或 yarn serve
+
+        // 方式二
+        a. 复制一个项目目录，安装依赖
+            yarn   或   cnpm i
+
+        b. 启动项目
+            yarn serve 或 npm run serve
+
+    2. 集成element-ui
+        a. 安装
+            yarn add element-ui 或  cnpm i element-ui --save
+
+        b. 引入（在main.js）
+            import ElementUI from 'element-ui'; // 引入JS组件
+            import 'element-ui/lib/theme-chalk/index.css'; // 引入css样式
+
+        c. 注册
+            Vue.use( ElementUI )
+
+    
+    3. 引入重置样式 reset.css 和 公用样式 common.css (main.js中)
+        import './xxx/reset.css';
+        import './xxx/common.css';
+
+    4. 登录页面实现
+        a. 新建页面
+        b. 配路由
+        c. 写静态界面
+        
+
+
+    
+
